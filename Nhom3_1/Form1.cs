@@ -31,5 +31,13 @@ namespace Nhom3_1
         {
 
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if (txtUsername.Text == "admin" && txtPassword.Text == "admin")
+                MessageBox.Show("Đăng nhập thành công");
+            else
+                MessageBox.Show("Sai tài khoản hoặc mật khẩu");
+        }
     }
 }
