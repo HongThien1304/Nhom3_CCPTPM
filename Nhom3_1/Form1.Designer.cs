@@ -76,7 +76,7 @@
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(89, 33);
             this.btnLogin.TabIndex = 11;
-            this.btnLogin.Text = "Login";
+            this.btnLogin.Text = "đăng nhập";
             this.btnLogin.UseVisualStyleBackColor = true;
             // 
             // Form1
